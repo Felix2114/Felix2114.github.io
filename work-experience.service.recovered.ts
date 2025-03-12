@@ -1,0 +1,12 @@
+??? desde aquí hasta ???FIN las líneas pueden haber sido insertadas/borradas
+import { Injectable } from '@angular/core';
+import {} from '';
+nano src/app/services/work-experience-ser
+@Injectable({
+  providedIn: 'root'
+})
+export class WorkExperienceService {
+  accesoWorkExperience = 'work experience running...';
+  constructor() { }
+}
+???FIN
