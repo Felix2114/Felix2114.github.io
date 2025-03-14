@@ -45,7 +45,7 @@ jobs:
         run: |
          git config --global user.name "${{ env.CI_COMMIT_POKE }}"
          git config --global user.email "poke@live.com.mx"
-         git add results
+         git add docs
          git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
          git push
 
