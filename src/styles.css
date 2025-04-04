@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+/* Estilo general de la tabla */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #fdf2e9; /* Naranja suave como fondo */
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Estilo de las celdas */
+td {
+  padding: 20px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+/* Encabezado superior (versión + app-header) */
+td[colspan="2"] {
+  background-color: #d35400; /* Naranja elegante */
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 30px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Estilo para cada sección */
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+/* Estilo para títulos dentro de cada componente */
+td > app-header,
+td > app-work-experience,
+td > app-skills,
+td > app-education,
+td > app-certificates,
+td > app-languages,
+td > app-interests {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d35400;
+  border-bottom: 2px solid #e67e22; /* Línea elegante */
+  padding-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilo general para los cuadros */
+.cv-table td {
+  background-color: #fff; /* Fondo blanco en celdas */
+  border: 1px solid #f77f00; /* Bordes naranjas elegantes */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo para badges (habilidades y etiquetas) */
+.skill-badge {
+  display: inline-block;
+  background: #e67e22;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
