@@ -3,7 +3,7 @@ on:
   #push:
     #branches: [ "master"]
   pull_request:
-    branches: [ "master"]
+    branches: [ "master"] 
 jobs:
   ci_cd_deploy_master:
     runs-on: ubuntu-latest
