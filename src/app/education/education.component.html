@@ -1,11 +1,15 @@
 <ul *ngFor="let edu of education;">
 <li>
-              <b>Education:</b> <br>
-	        High School:<br>
-                {{ edu.highSchool }} <br>
-		University:<br>
-		{{ edu.university}} <br>
+              Education: <br>
+
+               Education Level:<br>
+               <b>{{ edu.educationLevel}}</b><br>
+
+                Name School:<br>
+                <b>{{ edu.nameSchool}}</b> <br>
+
+                Years:<br>
+                <b>{{ edu.years}}</b><br>
         </li>
 
 </ul>
-
