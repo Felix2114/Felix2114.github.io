@@ -1,9 +1,6 @@
 export class Education {
-	id?: string;
-	highSchool?: string = 'school';
-	university?: string = 'university';
-
-
-
-
+        id?: string;
+        educationLevel?: string = 'education level';
+        nameSchool?: string = 'name';
+        years?: string = 'years';
 }

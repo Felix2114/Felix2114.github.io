@@ -1,7 +1,8 @@
 export class Certificates {
-	id?: string;
-	certificateWeb?: string = 'Web';
-	certificateMobile?: string = 'Movil';
+        id?: string;
+        certificateName?: string = 'name'
+        date?: string = 'date';
+        institution?: string ='institution';
 
 
 }
