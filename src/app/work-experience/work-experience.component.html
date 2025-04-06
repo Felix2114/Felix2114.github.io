@@ -1,10 +1,11 @@
 <ul *ngFor="let job of workExperience;">
         <li>
-                {{ job.startDate }} - {{ job.endDate }}  <i>{{job.location}} </i> <br>
+		Start/Date and Location: <br>
+		<b> {{ job.startDate }} - {{ job.endDate }}  <i>{{job.location}} </i></b> <br>
                 <b> {{job.position }} </b> <br>
-                {{ job.company }} <br>
+		<b>{{ job.company }}</b> <br>
                 Logros: <br>
-                {{ job.accomplishment }} <br>
+		<b>{{ job.accomplishment }}</b> <br>
         </li>
 
 </ul>
