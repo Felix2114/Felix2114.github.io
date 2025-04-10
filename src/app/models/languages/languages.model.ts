@@ -1,8 +1,6 @@
 export class Languages {
-	id?: string;
-	originLanguage?: 'Spanish';
-	exLanguage?: 'English';
-
-
+        id?: string;
+        language?: 'Spanish';
+        languageProficiency?: 'English';
 
 }
